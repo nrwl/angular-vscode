@@ -1,0 +1,27 @@
+{
+  "name": "angular-vscode",
+  "version": "1.0.0",
+  "description": "Useful VSCode plugins for Angular Development",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nrwl/angular-vscode.git"
+  },
+  "keywords": [
+    "Angular",
+    "VSCode"
+  ],
+  "author": "Victor Savkin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nrwl/angular-vscode/issues"
+  },
+  "homepage": "https://github.com/nrwl/angular-vscode",
+  "schematics": "./collection.json",
+  "dependencies": {
+    "@angular-devkit/schematics": "7.3.1",
+    "strip-json-comments": "2.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^3.3.3"
+  }
+}

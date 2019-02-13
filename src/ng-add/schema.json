@@ -1,0 +1,7 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "id": "AngularVSCodeNgAdd",
+  "title": "Angular VSCode Plugins",
+  "description": "Add VSCode Plugins useful for Angular Development",
+  "type": "object"
+}

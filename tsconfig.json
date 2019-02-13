@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "dist/src",
+    "typeRoots": ["node_modules/@types"],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "lib": ["es2017"],
+    "declaration": true,
+    "baseUrl": "."
+  },
+  "exclude": [
+    "tmp",
+    "dist",
+    "node_modules"
+  ]
+}

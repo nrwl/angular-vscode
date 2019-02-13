@@ -1,0 +1,12 @@
+{
+  "name": "angular-vscode",
+  "version": "0.1",
+  "schematics": {
+    "ng-add": {
+      "factory": "./src/ng-add",
+      "schema": "./src/ng-add/schema.json",
+      "description": "Add VSCode Plugins useful for Angular Development",
+      "hidden": true
+    }
+  }
+}
