@@ -1,14 +1,12 @@
 import { Rule, chain } from '@angular-devkit/schematics';
 import { updateJsonInTree } from '../utils/json-utils';
+import { recommendations } from '../utils/recommendations';
 
 const addExtensionRecommendations = updateJsonInTree<{
   recommendations?: string[];
 }>('.vscode/extensions.json', json => {
   json.recommendations = json.recommendations || [];
-  [
-    'nrwl.angular-console',
-    'angular.ng-template'
-  ].forEach(extension => {
+  recommendations.forEach(extension => {
     if (!json.recommendations.includes(extension)) {
       json.recommendations.push(extension);
     }
