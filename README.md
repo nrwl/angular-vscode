@@ -7,7 +7,12 @@ This packages transforms VSCode into the best editor for Angular development.
 
 ## How to Use It
 
+
 `ng add angular-vscode`
+
+or 
+
+`npx angular-vscode`
 
 
 ## How It Works
